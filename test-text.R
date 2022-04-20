@@ -5,7 +5,7 @@ print("And now it lives on GitHub")
 ### 3. Configure git with Rstudio ############################################
 
 ## set your user name and email:
-usethis::use_git_config(user.name = "jessicayijay", user.email = "acolin.jessica@gmail.com")
+usethis::use_git_config(user.name = "jessicayijay")
 
 ## create a personal access token for authentication:
 usethis::create_github_token() 
